@@ -1,6 +1,8 @@
 import pytest
 import tiktoken
 import os
+import sys
+sys.path.append('../minbpe')
 
 from minbpe import BasicTokenizer, RegexTokenizer, GPT4Tokenizer
 
